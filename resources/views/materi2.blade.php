@@ -1023,6 +1023,7 @@ document.querySelectorAll('#taskList li').forEach(li => {
   const cb = li.querySelector('input');
   cb.addEventListener('change', () => li.classList.toggle('done', cb.checked));
 });
+</script>
 
 <script>
 const tabs = document.querySelectorAll('.tabbtn');
@@ -1038,7 +1039,6 @@ tabs.forEach(tab => {
 
     });
 });
-</script>
 </script>
 </body>
 </html>
