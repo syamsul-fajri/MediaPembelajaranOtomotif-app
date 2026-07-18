@@ -101,7 +101,7 @@
     <div class="card">
         <div class="header">
             <div class="icon">
-                <img src="{{ asset('image/Logo_UBG.png') }}" width="60" alt="">
+                <img src="{{ asset('public/Image/Logo_UBG.png') }}" width="60" alt="">
 </div>
             <h2>WEB Otomotif Learning</h2>
             <p>Pembelajaran Interaktif dengan Web</p>
