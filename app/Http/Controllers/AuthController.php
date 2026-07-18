@@ -1270,12 +1270,7 @@ $soal_cocok = [
     //=================
     
     // random soal
-        foreach ($soal_pg as $index => &$soal) {
-        $soal['id'] = $index + 1;   // 1, 2, 3, ... sesuai urutan $kunci_pg
-        }
-        unset($soal);
-
-        shuffle($soal_pg); 
+    // shuffle($soal_pg);
 
     return view('kuis', compact('soal_pg','soal_cocok','materi_id'));
 }
@@ -1511,7 +1506,7 @@ public function detailKelas($id)
 
     // Karena materi Anda tidak disimpan di database,
     // maka isi manual sesuai jumlah materi yang ada
-    $jumlahMateri = 4;
+    $jumlahMateri = 10;
 
     return view('detail_kelas', compact(
         'kelas',
