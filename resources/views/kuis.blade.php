@@ -76,7 +76,7 @@ select {
 
             @foreach($s['opsi'] as $key => $opsi)
                 <label>
-                    <input type="radio" name="pg{{ $s['id'] }}" value="{{ $key }}" required>
+                    <input type="radio" name="pg{{ $i }}" value="{{ $key }}" required>
                     {{ strtoupper($key) }}. {{ $opsi }}
                 </label><br>
             @endforeach
