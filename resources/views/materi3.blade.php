@@ -451,10 +451,14 @@
     .container { padding: 1.25rem; }
   }
 
-  .tabnav{
-  position:sticky;top:0;z-index:50;
-  background:rgba(255, 255, 255, 0.92);backdrop-filter:blur(8px);
-  border-bottom:1px solid var(--line);
+.tabnav{
+    position:sticky;
+    top:0;
+    background:#fff;
+    z-index:999;
+    overflow-x:auto;
+    white-space:nowrap;
+    box-shadow:0 2px 6px rgba(0,0,0,.1);
 }
 
 .tabnav-inner{
